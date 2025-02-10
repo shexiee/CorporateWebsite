@@ -1,0 +1,181 @@
+.services-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  
+  .services-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .services-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Darkens the video */
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Aligns text to the left */
+    padding: 0 5%;
+  }
+  
+  .services-text-wrapper {
+    z-index: 3;
+    color: white;
+    max-width: 50%; /* Restricts the text width */
+  }
+  
+  .services-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .services-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  
+  .services-button {
+    background-color: #00695c !important;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-transform: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services-button:hover {
+    background-color: #004d40 !important;
+  }
+
+ .services-new-section {
+  background-color: #F9A51A; /* Changed background color */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+
+
+.services-new-section .MuiCard-root {
+  background-color: white !important;
+  color: black !important;
+  transition: transform 0.3s ease;
+}
+
+.services-new-section .MuiCard-root:hover {
+  transform: scale(1.05);
+}
+
+.services-new-section .MuiTypography-h6 {
+  font-weight: bold;
+}
+ 
+  .modalities-section {
+    background-color: #f8f8f8;
+    padding: 60px 20px;
+  }
+  
+  .modalities-section h3 {
+    text-align: left;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .modalities-section .MuiTabs-root {
+    border-right: 2px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .modalities-section .MuiTab-root {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .modalities-section .Mui-selected {
+    color: #045940 !important;
+    font-weight: bold;
+  }
+  
+  .modalities-section .MuiTabs-indicator {
+    background-color: #045940;
+  }
+  
+  .modalities-section .MuiBox-root {
+    text-align: left;
+  }
+  
+  .bg-section {
+  background: url("src/assets/bg1.jpg") no-repeat center center/cover;
+  height: 450px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bg-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  color: white;
+  max-width: 60%;
+  text-align: center;
+}
+
+.bg-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bg-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.services-new-section {
+  background-color: #F9A51A;
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+}
+
+.service-card {
+  min-height: 250px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
+
+.service-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.service-description {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.5;
+  text-align: justify;
+}
+
