@@ -22,7 +22,7 @@ export default function Navbar() {
         </div>
 
         {/* Apply Now Button */}
-        <Link href="/contact-us">
+        <Link href="/apply-now">
           <button className="bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700">
             Apply Now
           </button>

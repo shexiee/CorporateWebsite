@@ -27,7 +27,7 @@ export default function Footer() {
             <Link href="/globalscale" className="block hover:underline">Global Scale</Link>
           </div>
           <div>
-            <Link href="/contact-us">
+            <Link href="/contact">
               <button className="bg-white text-green-800 font-bold px-4 py-2 rounded-full hover:bg-green-300">
                 Contact Us
               </button>
