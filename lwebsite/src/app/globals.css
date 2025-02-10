@@ -2,20 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define a modern and clean look */
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #045940; /* Dark Green */
+  --secondary: #F9A51A; /* Yellow */
+  --accent: #7be0d3; /* Light Teal */
 }
 
-/*@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}*/
-
+/* Ensure consistent background and font */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-100 text-gray-900 font-sans;
+}
+
+/* Improve buttons */
+.btn {
+  @apply px-6 py-3 font-semibold rounded-lg transition-all;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-green-800;
+}
+
+.btn-secondary {
+  @apply bg-secondary text-white hover:bg-yellow-600;
+}
+
+/* Improve section styling */
+.section {
+  @apply max-w-6xl mx-auto px-6 py-12;
+}
+
+/* Improve headings */
+h1 {
+  @apply text-4xl font-bold text-primary;
+}
+
+h2 {
+  @apply text-3xl font-bold text-gray-800;
+}
+
+p {
+  @apply text-lg text-gray-700 leading-relaxed;
 }

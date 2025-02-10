@@ -18,7 +18,7 @@ export default function Navbar() {
           <Link href="/projects" className="hover:text-green-600">Projects</Link>
           <Link href="/services" className="hover:text-green-600">Services</Link>
           <Link href="/careers" className="hover:text-green-600">Careers</Link>
-          <Link href="/globalscale" className="hover:text-green-600">Global Scale</Link>
+          <Link href="/global-scale" className="hover:text-green-600">Global Scale</Link>
         </div>
 
         {/* Apply Now Button */}
