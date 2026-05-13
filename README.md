@@ -1,6 +1,6 @@
 # Lifewood Corporate Website
 
-The official corporate website for **Lifewood Data Technology** — a global AI data processing company delivering precision-labeled, model-ready datasets for the world's leading AI teams.
+A corporate website project built during an internship at **Lifewood Data Technology** — a global AI data processing company delivering precision-labeled, model-ready datasets for leading AI teams.
 
 Built with **Next.js 15**, **Tailwind CSS**, and **React**, featuring a premium modern UI with glassmorphism, scroll-reveal animations, and a fully responsive layout.
 
